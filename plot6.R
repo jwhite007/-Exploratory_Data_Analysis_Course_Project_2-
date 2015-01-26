@@ -46,7 +46,7 @@ g <- ggplot(ds, aes(factor(year), total_emissions))
 
 # adds a bar geom to the plot object for creation of a bar plot
 g + geom_bar(stat = 'identity', fill = 'steelblue') +
-labs(title = expression(atop('Yearly Total ' * PM[2.5] * ' Emissions from Coal-Combustion in Los Angeles',
+labs(title = expression(atop('Yearly Total ' * PM[2.5] * ' Emissions from Motor-Vehicles in Los Angeles',
                         paste('County and Baltimore City Reported Every Three Years(1999-2008)')))) +
 
 # adds a main title to plot object
